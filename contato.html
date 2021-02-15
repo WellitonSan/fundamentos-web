@@ -7,7 +7,10 @@
     <title>Contato</title>
 </head>
 <body>
-    <ul>
+   
+    <link rel="stylesheet" href="assets/css/style.css">
+   
+    <ul id="menu">
         <li>
             <a href="index.html">Home</a>
         </li>
@@ -16,40 +19,79 @@
         </li>    
     </ul>
 
-    <h1>Entre em contato</h1>
+    <h1 class="p1">Entre em contato</h1>
 
-    <form>
-        <label for="nome">Nome:</label><br>
-        <input type="text" id="nome">
+    <div class="container mb-50">
+            <div>                
+                <form class="teste">
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" id="nome">
+            
+                    <br><br>
+            
+                    <label for="email">E-mail:</label><br>
+                    <input type="email" id="email">
+            
+                    <br><br>
+                    <label for="assunto">Assunto:</label><br>
+                    <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
+                </form>               
 
-        <br><br>
+                <br>
+                <button>Enviar</button>            
+            </div>
 
-        <label for="email">E-mail:</label><br>
-        <input type="email" id="email">
+            <div class="marginleft">
+                <h2>Endereço:</h2>
 
-        <br><br>
-        <label for="assunto">Assunto:</label><br>
-        <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
-    </form>   
+                <p>Av. das comunicações, 927</p>
+                <p>Osasco, SP</p>
+            
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.6044097641734!2d-46.773905085895265!3d-23.474729784725888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cefc20c090c4eb%3A0xb42d0ff375fbe216!2sJequiti%20Cosm%C3%A9ticos!5e0!3m2!1spt-BR!2sbr!4v1613050808657!5m2!1spt-BR!2sbr" 
+                width="400" 
+                height="250" 
+                frameborder="0" 
+                style="border:0;" 
+                allowfullscreen="" 
+                aria-hidden="false" 
+                tabindex="0">
+                </iframe>
+            </div>
+    </div>
 
-    <br>
-    <br>
-    <button>Enviar</button>
-
-    <h2>Endereço:</h2>
-
-    <p>Av. das comunicações, 927</p>
-    <p>Osasco, SP</p>
-
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.6044097641734!2d-46.773905085895265!3d-23.474729784725888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cefc20c090c4eb%3A0xb42d0ff375fbe216!2sJequiti%20Cosm%C3%A9ticos!5e0!3m2!1spt-BR!2sbr!4v1613050808657!5m2!1spt-BR!2sbr" 
-    width="400" 
-    height="250" 
-    frameborder="0" 
-    style="border:0;" 
-    allowfullscreen="" 
-    aria-hidden="false" 
-    tabindex="0">
-    </iframe>
+    <hr>
     
+    <footer>
+        <div class="container">
+            <a href="https://pt-br.facebook.com/jequiticosmeticos/" target=”_blank”>
+            <img class="tm-social p-30" src="assets/img/facebook.png" alt="Imagem do Facebook">
+            </a>
+    
+            <a href="https://twitter.com/jequiti?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target=”_blank”>
+            <img class="tm-social p-30" src="assets/img/twitter.png" alt="Imagem do Twitter">
+            </a>
+            
+            <a href="https://br.linkedin.com/company/jequiti-cosm-ticos" target=”_blank”>
+            <img class="tm-social p-30" src="assets/img/linkedin.png" alt="Imagem do Linkedin">
+            </a>
+            
+            <a href="https://web.whatsapp.com/" target=”_blank”>
+            <img class="tm-social p-30" src="assets/img/whatsapp.png" alt="Imagem do Whatsapp">
+            </a>
+            
+            <a href="https://www.instagram.com/jequiti/?hl=pt-br" target=”_blank”>
+            <img class="tm-social p-30" src="assets/img/instagram.png" alt="Imagem do Instagram">
+            </a>
+            
+            <a href="https://www.youtube.com/channel/UC2vnzOFyZkhgrcYhjHj9wQA" target=”_blank”>
+            <img class="tm-social p-30" src="assets/img/youtube.png" alt="Imagem do Youtube">
+            </a>
+        </div>
+    
+        <p class="p1">
+            Todos os direitos reservados: Welliton &copy;
+        </p>
+    </footer>    
+
 </body>
 </html>
